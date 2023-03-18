@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "dev-ops-ninja:v991"
+const webContent = "dev-ops-ninja:v991.2"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
